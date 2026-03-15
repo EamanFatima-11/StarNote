@@ -1,16 +1,33 @@
-# star_note
 
-A new Flutter project.
+✦ StarNote — Space-Themed Notes App
 
-## Getting Started
+Capture your thoughts across the cosmos.
 
-This project is a starting point for a Flutter application.
+A stunning Flutter notes app with a deep space aesthetic, tag-based filtering, color-coded notes, and a smooth dark editor — built for thinkers and creators.
 
-A few resources to get you started if this is your first Flutter project:
+✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📝 Create & Edit Notes — Rich note editor with title, body, tag and color
+🏷️ Tag Filtering — Filter notes by Dev, Design, Research, Todo, Personal
+🔍 Live Search — Instantly search notes by title or content
+🎨 6 Color Themes — Each note gets its own card color
+🗑️ Delete with Confirm — Long press to delete with confirmation dialog
+📐 Masonry Grid Layout — Pinterest-style note cards
+🌌 Space UI — Deep dark theme with glowing accents
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Installation
+bash# Clone the repository
+git clone https://github.com/EamanFatima-11/StarNote.git
+
+# Navigate to project
+cd StarNote
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+
+📁 Project Structure
+lib/
+└── main.dart       # Complete app — home, note editor, search, filters
